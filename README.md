@@ -32,4 +32,7 @@
 ├── config.py                  # all tunables live here
 ├── train.py                   # main training script
 ├── utils.py                   # checkpoint helpers
+├── run_on_patches_online.py   # Doing inference
 └── README.md
+```
+
