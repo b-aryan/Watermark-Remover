@@ -12,11 +12,16 @@ Here's a glimpse of the model's watermark removal capabilities:
 | Before (Watermarked) | After (Restored by Model) |
 | :------------------: | :-----------------------: |
 | ![Watermarked Example 1](./samples/1_w.jpg) | ![Restored Example 1](./samples/1_r.jpg) |
-| ![Watermarked Example 2](./samples/2_w.jpg) | ![Restored Example 2](./samples/2_r.jpg) |
 | ![Watermarked Example 3](./samples/4_w.jpg) | ![Restored Example 3](./samples/4_r.jpg) |
-| ![Watermarked Example 4](./samples/5_w.jpg) | ![Restored Example 4](./samples/5_r.jpg) |
 | ![Watermarked Example 5](./samples/6_w.jpg) | ![Restored Example 5](./samples/6_r.jpg) |
 | ![Watermarked Example 6](./samples/7_w.jpg) | ![Restored Example 6](./samples/7_r.jpg) |
+
+#### 🔗 Live Demo
+
+Try the model directly in your browser at:  
+👉 [**WM-Remover on Hugging Face Spaces**](https://huggingface.co/spaces/b-aryan/WM-Remover)
+
+You can upload or paste a link to a watermarked image, and the model will return a (mostly) clean, restored version.
 
 ---
 
@@ -107,9 +112,3 @@ Training was on [Kaggle Platform](https://kaggle.com) using their `T4x2 GPUs`.
 
 This model is designed to handle arbitrarily large images by processing them in **overlapping patches** and seamlessly reconstructing the output using `run_on_patches_online.py`.
 
-### 🔗 Live Demo
-
-Try the model directly in your browser at:  
-👉 [**WM-Remover on Hugging Face Spaces**](https://huggingface.co/spaces/b-aryan/WM-Remover)
-
-You can upload or paste a link to a watermarked image, and the model will return a (mostly) clean, restored version.
