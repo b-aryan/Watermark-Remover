@@ -103,9 +103,9 @@ Training was on [Kaggle Platform](https://kaggle.com) using their `T4x2 GPUs`.
 
 > Training is done patch-wise to generalize across various image resolutions and enhance local feature restoration.
 
-## 🚀 Inference & Deployment
+## 🚀 Inference
 
-This model is designed to handle arbitrarily large images by processing them in **overlapping patches** and seamlessly reconstructing the output.
+This model is designed to handle arbitrarily large images by processing them in **overlapping patches** and seamlessly reconstructing the output using `run_on_patches_online.py`.
 
 ### 🔗 Live Demo
 
