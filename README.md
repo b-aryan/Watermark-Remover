@@ -5,6 +5,21 @@
 
 ---
 
+## ✨ Sample Results
+
+Here's a glimpse of the model's watermark removal capabilities:
+
+| Before (Watermarked) | After (Restored by Model) |
+| :------------------: | :-----------------------: |
+| ![Watermarked Example 1](./samples/1_w.jpg) | ![Restored Example 1](./samples/1_r.jpg) |
+| ![Watermarked Example 2](./samples/2_w.jpg) | ![Restored Example 2](./samples/2_w.jpg) |
+| ![Watermarked Example 3](./samples/4_w.jpg) | ![Restored Example 3](./samples/4_w.jpg) |
+| ![Watermarked Example 4](./samples/5_w.jpg) | ![Restored Example 4](./samples/5_r.jpg) |
+| ![Watermarked Example 5](./samples/6_w.jpg) | ![Restored Example 5](./samples/6_w.jpg) |
+| ![Watermarked Example 6](./samples/7_w.jpg) | ![Restored Example 6](./samples/7_w.jpg) |
+
+---
+
 ## ✨ Key Features
 | Feature | Why it matters |
 |---------|---------------|
