@@ -16,7 +16,16 @@ Here's a glimpse of the model's watermark removal capabilities:
 | ![Watermarked Example 3](./samples/6_w.jpg) | ![Restored Example 3](./samples/6_r.jpg) |
 | ![Watermarked Example 4](./samples/7_w.jpg) | ![Restored Example 4](./samples/7_r.jpg) |
 
-#### 🔗 Live Demo
+
+### 📊 Quantitative Evaluation
+Tested on a held-out validation set:
+| Metric       | Value          | What it measures                                  |
+|--------------|----------------|---------------------------------------------------|
+| **PSNR**     | **24.53 dB**   | Pixel-level fidelity (higher = better)            |
+| **SSIM**     | **0.811**      | Structural similarity to ground truth (1.0 = perfect) |
+| **LPIPS**    | **0.224**      | Perceptual similarity (0.0 = human-indistinguishable) |
+
+### 🔗 Live Demo
 
 Try the model directly in your browser at:  
 👉 [**WM-Remover on Hugging Face Spaces**](https://huggingface.co/spaces/b-aryan/WM-Remover)
@@ -24,6 +33,7 @@ Try the model directly in your browser at:
 You can upload or paste a link to a watermarked image, and the model will return a (mostly) clean, restored version.
 
 ---
+
 
 ## ✨ Key Features
 | Feature | Why it matters |
